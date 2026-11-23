@@ -1,0 +1,59 @@
+# ============================================================
+#  TerminalHero - Regeln fuer den GitHub-Upload
+# ------------------------------------------------------------
+#  HOCHGELADEN WIRD:
+#    shDateien/              komplettes Spiel (Engine, Befehle, Orte,
+#                            Charaktere, Items, Startbildschirm, Tutorial)
+#    assets/sounds/          Soundeffekte
+#    TerminalHero            Quicklaunch-Skript
+#    Kern/tests/             komplette Testsuite (ohne Laufzeit-Artefakte)
+#    README.md, Mechaniken, Story&Quests/
+#    .gitignore, .gitattributes
+#
+#  NICHT HOCHGELADEN WIRD:
+#    saves/                  persoenliche Spielstaende (Spielername,
+#                            Verlauf, Freischaltungen)
+#    TEAM.md                 interne Projekt-/Rollennotizen
+#    Kern/Stand.md           internes KI-Gedaechtnis (Aenderungslog,
+#                            Backlog, Quest-/Story-Loesungen)
+#    Kern/Durchspielregeln.md  interne Arbeitsanweisung fuer Durchspiele
+#    Kern/tests/.tmp/        Test-Spielstaende
+#    __pycache__/, *.pyc     Python-Cache
+#    *.bak, *.bak2, *~       Sicherungs-/Editor-Kopien
+#    *.log                   lokale Protokolle
+#    .DS_Store, *.swp        OS-/Editor-Kruemel
+# ============================================================
+
+# --- Persoenliche Spielstaende ------------------------------
+saves/*.save
+saves/.startscreen_style
+
+# --- Interne Projektnotizen ---------------------------------
+TEAM.md
+Kern/Stand.md
+Kern/Durchspielregeln.md
+
+# --- Test-Artefakte -----------------------------------------
+Kern/tests/.tmp/
+Kern/tests/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# --- Sicherungs- und Editor-Kopien --------------------------
+*.bak
+*.bak2
+*.orig
+*~
+*.swp
+*.swo
+
+# --- Lokale Protokolle --------------------------------------
+*.log
+
+# --- OS-Kruemel ---------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- Laufzeit-/Durchspiel-Ausgaben --------------------------
+/storyrun/
