@@ -1,4 +1,4 @@
-# TerminalHero
+# TerminalHero (Demo)
 
 Ein dystopisches Terminal-Abenteuer – komplett in Bash.
 
