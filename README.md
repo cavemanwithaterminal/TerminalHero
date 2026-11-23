@@ -73,8 +73,6 @@ TerminalHero/
 ├── assets/sounds/      Soundeffekte
 ├── Kern/tests/         Testsuite (Unit- und PTY-Tests)
 ├── saves/              Spielstände (wird zur Laufzeit erzeugt)
-├── Story&Quests/       Quest- und Story-Notizen
-├── Lore.txt            Hintergrund
 └── TerminalHero        Quicklaunch-Skript
 ```
 
@@ -94,9 +92,9 @@ bash Kern/tests/unit.sh
 Die PTY-Tests starten echte Spielsitzungen und brauchen ein Terminal.
 Ein vollständiger Lauf dauert einige Minuten.
 
-> **Spoiler-Warnung:** Die Tests und die Story-Dokumente enthalten
-> Questlösungen und Handlungsdetails. Wer das Spiel unvoreingenommen
-> erleben will, sollte sie erst nach dem Durchspielen lesen.
+> **Spoiler-Warnung:** Die Testsuite enthält Questlösungen und
+> Handlungsdetails. Wer das Spiel unvoreingenommen erleben will, sollte
+> sie erst nach dem Durchspielen lesen.
 
 ## Status
 
