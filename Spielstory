@@ -1,0 +1,219 @@
+# Spieltagebuch – TerminalHero
+
+## Tag 1: Das Erwachen
+
+Ich erwache in einem Terminal. Nicht im Bett, sondern in einer
+Welt aus Daten: *Downloads/Neugier*. Der Bildschirm leuchtet.
+Der Cursor blinkt. Und der Titel liest sich:
+
+> **TerminalHero**
+
+Ich tippe **pwd**. Der Bildschirm zeigt:
+`/home/benutzer/Downloads/Neugier`.
+
+Einfach, aber tief. *Wo läge ich?*
+
+Dann **ls**. Der Ordner enthält Orte, Objekte, Charaktere.
+**cat README**. Die Datei liest sich wie eine Nachricht
+aus einer vergessenen Zeit:
+
+> „Ich bin also ein Anti-Virus-Agent – und werde kein
+> Schiedsrichter, sondern werde mir aufzeigen, was in der
+> Stadt ist, damit nach dem Erstkontakt der Rückweg
+> herausgefunden werden kann.“
+
+Das ist ein Sieg. Ich habe das Prinzip des Spiels verstanden:
+Schritt für Schritt. Der Terminal erlaubt zuerst nur die
+wichtigsten Befehle: *pwd, ls, cat, touch*. Man lernt sie,
+die wesentlichen Befehle, und erhielte 50 EXP. Das ist ein
+normales Startkapital.
+
+Danach dreht sich alles um das Handelsfenster. Ich tippe
+`touch README` – und es öffnet die Funkverbindung zum General,
+ihm die Führung, den Rückweg mit *cd ..* zu ermöglichen.
+
+Ich mach die Entscheidungsfragen einmal – jede, und die
+Verbindung wird getrennt, die Quest abgeschlossen. Danach
+helfen vier Befehle: *help, character, questlog, inventar*.
+Jede verstehe ich. Das Spiel und die Welt laufen in Echtzeit.
+
+**EXP: 56/100. Tokens: 980/1000.**
+
+## Tag 2: Die Stadt – Ostdistrikt
+
+Die Bekanntschaft ist kaum zu hoch. Ich tippe *cd Ostdistrikt*
+– und der Terminal wechselt Land.
+
+Zum ersten Mal steht man im regionalen Raum: der Kneipe
+„Zum Goldenen Lächeln“. Der Wirt heißt Börty Smiles, und er
+sagt:
+
+> „Na sieh an, ein frisches Gesicht. Setz dich, das kostet
+> nichts.“
+
+Ich setze mich. Dieser Augenblick ist nicht isoliert. Er
+gehört zur Hintergrundgeschichte: einem Anti-Virus-Agenten,
+dem der Platz nicht gehört, der trotzdem hier sitzt und hört.
+Die Stadt ist voll von solchen Momenten.
+
+## Tag 3: Das Zentrum – Marktplatz, Lager, Verlag
+
+Der Weg führt nach Zentrum. Ich gehe zum Marktplatz. Hier
+geschieht das Handeln.
+
+Samy Cage, der Lagermeister, ist zum Ersten Mal aufgetaucht.
+Seine Einleitung ist ein Stück: er zählt Bestand, keine
+Namen. *„Vermisste Bewohner?“* Das Wort hängt in der Luft.
+Die Geschichte wird prägen.
+
+Ich tippe: *cd Marktplatz, cd Lager*. Samy Cage ist hier.
+Er hat die Bierlieferung. Es wird genau einmal angeboten, wenn
+alles bereit ist. Ein Wagnis: das Gericht, die Zusage, der
+Koffer.
+
+## Tag 4: Das Handelsfenster
+
+Das Handelsfenster ist die Bestie am Herzen der Stadt.
+Jede Ware hat einen Preis, jede Berechnung eine Konsequenz.
+Man legt ein Stück LightBeer in das Verkaufsfach, verrechnet
+es, und der Händler zahlt Bots.
+
+Die Mechanik ist klar: 3 Bits für eine Flasche LightBeer,
+7 Bits für den Kauf beim Händler. Die Welt ist eine
+Wirtschaft, die nur zählt, was man tauscht.
+
+## Tag 5: Der Kampf – Molerate
+
+Nach dem Marktplatz folgt die Höhle. Die Molerathöhle. Hier
+läuten die Molerate. „Oink, Oink.“ Tapfere Wesen, die
+das Abenteuer vertiefen.
+
+Das Ausrüstungsprogramm ist das Schwert:
+- **Einfaches Set**: Schwert, Mütze, Hemd, Hose, Schild,
+  Ring, Amulett. +70 Max-Tokens, −5 Schaden.
+- **Kampfset**: +86 Max-Tokens, −4 Schaden. Kampfring
+  +15, +1 Token/60s. Ganzes Set: +121 Max-Tokens,
+  −5 Schaden, +2 Token/60s.
+
+Der Kampf ist *rm <Ziel>*. Es braucht eine ausgerüstete Waffe
+gegen Viren und Gegner. Jeder Kill gibt EXP und Loot (Moleratcode).
+Die Mechanik ist hart: 50 Grundkosten plus 50 pro Ziel.
+
+## Tag 6: Der Rundgang – Pixi
+
+Der letzte Weg führt zum Verlag. Pixi ist das Licht der
+Stadt. *„Du willst den Rundgang machen?“*
+
+Der Rundgang durch alle Stadtteile. Süddistrikt, Zentrum,
+Ostdistrikt, Norddistrikt, Westdistrikt. Jede Stadt hat ein
+Gespräch, ein Ziel, eine Erinnerung.
+
+Beim Rückweg im Verlag: *Tab*. Die Ausgabe ist fertig
+gedruckt. 50 Bits, 500 EXP. Die Quest „Die neueste Auflage“
+ist geschafft.
+
+## Tag 7: Die Welt – alles, was ist
+
+Nach dem Rundgang ist das Bild vollständig. Es ist keine
+Landkarte, sondern eine Art Wohnzimmer. Hier ist alles:
+
+**Charaktere:**
+- Börty Smiles – Wirt, Händler, engere Beziehung
+- Sherlock Holmes – Detektiv, im Büro, sucht das Virus
+- Amanda Nox – Assistentin, im Vorzimmer der Detektei
+- Simon Guard – Torwächter, im Wachhaus
+- Simple Jon – Mitglied der Stadt, in der Wachhüt
+- Francesco Dellamorte – Totengräber im Friedhof
+- Jack Bones – Survival-Shop, Marktplatz
+- Bruno Amboss – Schmied, Zentrum
+- Samy Cage – Lager, Marktplatz
+- Michael Mitch – Börtys früherer Geheilfe, im
+  Restaurant
+- Pixi – Verlag, bekennt sich zur Zeitung
+- Rachel – Verlegerin, DailyPulse
+- Tracey Briggs – Zeitungsträgerin, Süddistrikt
+- Jimmy Page – Zeitungssammler, Süddistrikt
+- Guy Sus – Informant, Höhleneingang
+- Neks Familie – Friedhof, Beerdigungstag
+
+**Orte:**
+- 5 Stadtteile (North, East, West, Center, South)
+- Höhleneingang, Molerathöhle, Brachland, Steppe, Friedmann,
+  Canyon, Moleratgebiet, Farm, Wasseraufbereitungsanlage,
+  Radiosender, Bettlergegend, Diebstahlgilde
+
+## Tag 8: Die Quests
+
+**Hauptquest: Vermisste Bewohner**
+- Nek Molerat ist verschwunden.
+- Simon Guard sucht nach ihm.
+- Sherlock Holmes arbeitet am Virus-Fall.
+- Michael Mitch ist verschwunden.
+
+**Nebenquests:**
+- Bier für Börty – die Bierlieferung, 250 Bits
+- Suche nach Mitch
+- Ein neuer Gehilfe für Börty
+- Neks Molerat (Nek)
+- Neks Familie (Familie)
+- Stadtrundgang mit Pixi
+- Die neueste Auflage: Sperrzone (Rachel)
+- Unterstützung für Amanda
+- Jimmys Zeitungsbote
+- Finde Tracey
+
+## Tag 9: Ausrüstung und Kampf
+
+**Sets:**
+- **Einfaches Set**: Schwert, Mütze, Hemd, Hose, Schild,
+  Ring, Amulett. +70 Max-Tokens, −5 Schaden.
+- **Kampfset**: +86 Max-Tokens, −4 Schaden. Kampfring
+  +15, +1 Token/60s. Ganzes Set: +121 Max-Tokens,
+  −5 Schaden, +2 Token/60s.
+
+**Waffen:**
+- Einfaches Schwert, Kampfschwert, Kampfring.
+
+**Ressourcen:**
+- Tokens (TOKENS): Energie, 1%/60s regenerierend.
+- Skillpoints: 1 pro Level.
+- Bits: Währung, Tokens.
+
+**Der Kampf (*rm*):**
+*rm <Ziel>*. Eine ausgerüstete Waffe gegen Viren und Gegner.
+Jeder Kill gibt EXP und Loot. 50 Grundkosten plus 50 pro Ziel.
+1 EXP je 5 bezahlte Tokens.
+
+## Tag 10: Das Ende des Kapitels
+
+Alle Tests sind grün. Die Welt lebt. Sie ist voller
+Menschen, und es ist voller Geschichte.
+
+**Was ich tat:**
+- Erkundete die Welt, spreche mit den Charakteren.
+- Half Börty im Handelsfenster.
+- Machte den Rundgang mit Pixi.
+- Stieß auf Samy Cage im Marktplatz.
+- Sprach mit Sherlock Holmes im Büro.
+- Tabte die Molerate im Höhleneingang.
+- Litte das Beerdigung von Nek.
+- Kaufte die Ausrüstung.
+
+**Das, was noch kommt:**
+- Die Verfolgung des Virus.
+- Den Kampf gegen Molerate.
+- Die Familie.
+- Die wirklichen Streitigkeiten.
+
+Das Spiel ist nicht zu Ende. Es ist eine Offenbarung: die
+Welt lebt. Sie ist voller Menschen, und sie ist voller
+Geschichte. Und durch das Spiel werden die Charaktere zu
+echten Personen.
+
+> „Die Welt eines Computers ist nicht leer. Sie ist
+> voller Leben, es ist voller Menschen, und es ist voller
+> Geschichte.“
+
+Und es ist immer noch möglich, das Spiel bis zum Ende zu
+spielen. Es ist ein Weg, der gehört werden kann. Die Welt
+ist bereit für das nächste Kapitel.

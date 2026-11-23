@@ -1,0 +1,8 @@
+# Bash-Skripte brauchen LF – auch wenn auf Windows geklont/committet wird.
+* text=auto eol=lf
+
+# Binärdateien nicht umwandeln
+*.wav binary
+*.png binary
+*.jpg binary
+*.gif binary

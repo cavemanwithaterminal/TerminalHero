@@ -1,0 +1,21 @@
+#!/bin/bash
+# ============================================================
+#  TerminalHero - Quicklaunch
+#
+#  Startet das Spiel aus jedem Ordner mit nur einem Wort:
+#      TerminalHero
+#
+#  Die Datei ist ein Symlink-Ziel für ~/.local/bin/TerminalHero.
+#  Der eigene Pfad wird über readlink -f aufgelöst, damit der
+#  Aufruf über den Symlink funktioniert.
+# ============================================================
+
+SELF="$(readlink -f "${BASH_SOURCE[0]}")"
+DIR="$(cd "$(dirname "$SELF")" && pwd)"
+
+if [ ! -f "$DIR/shDateien/TerminalHero.sh" ]; then
+    echo "TerminalHero: shDateien/TerminalHero.sh nicht gefunden ($DIR)" >&2
+    exit 1
+fi
+
+exec bash "$DIR/shDateien/TerminalHero.sh" "$@"
